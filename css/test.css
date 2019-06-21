@@ -1,9 +1,9 @@
-/*
-.content-profile-page {
-  margin: 1em auto;
-  width: 44.23em;
-}
 
+/*.content-profile-page {
+ 
+  width: 44.23em;
+}*/
+/*
 .card {
   background: #fff;
   border-radius: 0.3rem;
@@ -126,10 +126,10 @@
 }
 .profile-user-page .data-user li a:hover span {
   color: #3498db; 
-}
+}*/
 
-*/
 
+/*
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 .snip1519 {
@@ -218,4 +218,67 @@
 .snip1519 .button:hover:before {
   top: 0;
   opacity: 1;
+}*/
+
+body {
+  padding: 30px 0px;
+}
+
+.navbar-why-you-so-small > .navbar-collapse {
+  background-color: rgba(51, 51, 51, 0.8);
+}
+
+.progress-bar {
+  text-align: left;
+  white-space: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+  padding-left: 10px;
+}
+
+.progress-meter {
+  min-height: 15px;
+  border-bottom: 2px solid rgb(160, 160, 160);
+}
+
+.progress-meter > .meter {
+  position: relative;
+  float: left;
+  min-height: 15px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(160, 160, 160);
+}
+
+.progress-meter > .meter-left {
+  border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+  float: right;
+  border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+  border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text {
+  position: absolute;
+  display: inline-block;
+  bottom: -20px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 0.85em;
+  color: rgb(160, 160, 160);
+  text-align: left;
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+  text-align: right;
 }
