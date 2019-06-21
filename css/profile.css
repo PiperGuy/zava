@@ -1,9 +1,4 @@
-body{
-	margin:50px;
-}
-.container {
-    width: 60%;
-    }
+
 
 .topcard-padding{
 	padding-bottom: 1.25rem;
@@ -52,7 +47,7 @@ body{
     height: 32%;
     width: 16%;
     z-index: 2;
-    position: absolute;
+    position: relative;
     top: 42%;
     left: 8%;
     object-fit: cover;
@@ -66,7 +61,8 @@ body{
 
 /*text*/
 .heading{
-	font-weight:;
+	font-weight:bold;
+	font-size: 3rem;
 }
 
 
