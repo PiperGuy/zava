@@ -1,0 +1,56 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+  font-family: 'Roboto', sans-serif;
+  background: #e6efe9;
+}
+.navbar{
+	background: #2b949a;
+	padding-right: 70px;
+}
+.navbar-light .navbar-brand  {
+	font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.brand{
+
+	font-size: 2em;
+	font-weight: 700;
+}
+.btn  {
+	background: #224F45  ;
+	color: white !important;
+}
+
+footer{
+	background: #2b949a;
+	color: white;
+}
+.card{
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top:6%;
+	padding:5%;
+	/*padding-top: 5%;
+	padding-right: 2%;
+	padding-left: 3%;*/
+}
+.col-12{
+	padding-bottom: 3%;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+
+.dropdown-menu-center {
+  left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
+}
+
+div.row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
