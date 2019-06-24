@@ -5,7 +5,7 @@
    <title>Zava : Profile</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <link rel="stylesheet" href="../css/home.css">
+
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
    <!-- <link rel="stylesheet" href="../icons/fontawesome-free-5.9.0-web/all.css"> -->
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 <body>
    <header>
       <nav class="navbar navbar-expand-lg navbar-light ">
-         <a class="navbar-brand brand" href="#">ZAVA</a>
+         <a class="navbar-brand brand" href="home.html">ZAVA</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
@@ -41,19 +41,19 @@
                         <a class="dropdown-item" href="#">contact people</a>
                         <div class="dropdown-divider"></div>
                         <input class="form-control ml-sm-0" type="search" placeholder="Search" aria-label="Search">
-                        <div class="d-inline-flex p-2"><span style="font-size: 20px; color: black;">
+                        <div class="d-inline-flex p-2"><span style="font-size: 20px; color: grey;">
                            <i class="fas fa-user-circle "></i>
                         </span><a class="dropdown-item" href="#">Person 1</a>
                      </div>
-                     <div class="d-inline-flex p-2"><span style="font-size: 20px; color: black;">
+                     <div class="d-inline-flex p-2"><span style="font-size: 20px; color: grey;">
                         <i class="fas fa-user-circle "></i>
                      </span><a class="dropdown-item" href="#">Person 2</a>
                   </div>
-                  <div class="d-inline-flex p-2"><span style="font-size: 20px; color: black;">
+                  <div class="d-inline-flex p-2"><span style="font-size: 20px; color: grey;">
                      <i class="fas fa-user-circle "></i>
                   </span><a class="dropdown-item" href="#">Person 3</a>
                </div>
-               <div class="d-inline-flex p-2"><span style="font-size: 20px; color: black;">
+               <div class="d-inline-flex p-2"><span style="font-size: 20px; color: grey;">
                   <i class="fas fa-user-circle "></i>
                </span><a class="dropdown-item" href="#">Person 4</a>
             </div>
@@ -79,7 +79,7 @@
             </span>
          </a>
          <div class="dropdown-menu dropdown-menu-center" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Username</a>
+            <a class="dropdown-item" href="profile.html">Username</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Settings</a>
             <a class="dropdown-item" href="../index.html">Logout</a>
@@ -101,7 +101,7 @@
                   <header class="card-header"><h6 class="title">Go To </h6></header>
                   <div class="filter-content">
                      <div class="list-group list-group-flush">
-                        <a href="#" class="list-group-item dropdown-item"> Profile</a>
+                        <a href="home.html" class="list-group-item dropdown-item"> Home</a>
                         <a href="#" class="list-group-item dropdown-item">Friends <span class="float-right badge badge-light round">142</span> </a>
                         <a href="#" class="list-group-item dropdown-item">Friend Requests<span class="float-right badge badge-light round">3</span>  </a>
                         <a href="#" class="list-group-item dropdown-item">Circles <span class="float-right badge badge-light round">32</span>  </a>
@@ -113,20 +113,20 @@
                   <header class="card-header"><h6 class="title">Your circles</h6></header>
                   <div class="filter-content">
                      <div class="card-body">
-                        <div class="d-inline-flex p-2 ">
-                           <span  style="font-size: 3em; color: red"><i class="fas fa-circle-notch"> </i></span>
+                        <div class="d-inline-flex p-2 wrapper"><a href="" ><span  style="font-size: 25px; color: red"><i class="fas fa-circle-notch"> </i><p style="font-size: 12px ;color: black;">circle 1</p></span></a>
+                           
                         </div>
-                        <div class="d-inline-flex p-2">
-                           <span  style="font-size: 3em; color: green"><i class="fas fa-circle-notch"> </i></span>
+                        <div class="d-inline-flex p-2 wrapper"><a href=""><span  style="font-size: 25px; color: green"><i class="fas fa-circle-notch"> </i><p style="font-size: 12px ;color: black;">circle 2</p></span></a>
+                           
                         </div>
-                        <div class="d-inline-flex p-2">
-                           <span  style="font-size: 3em; color: yellow"><i class="fas fa-circle-notch"> </i></span>
+                        <div class="d-inline-flex p-2 wrapper"><a href=""><span  style="font-size: 25px; color: yellow"><i class="fas fa-circle-notch"> </i><p style="font-size: 12px ;color: black;">circle 3</p></span></a>
+                           
+                        </div> 
+                        <div class="d-inline-flex p-2 wrapper"><a href=""> <span  style="font-size: 25px; color: tan"><i class="fas fa-circle-notch"> </i><p style="font-size: 12px ;color: black;">circle 4</p></span></a>
+                          
                         </div>
-                        <div class="d-inline-flex p-2">
-                           <span  style="font-size: 3em; color: tan"><i class="fas fa-circle-notch"> </i></span>
-                        </div>
-                        <div class="d-inline-flex p-2">
-                           <span  style="font-size: 3em; color: purple"><i class="fas fa-circle-notch"> </i></span>
+                        <div class="d-inline-flex p-2 wrapper"><a href=""><span  style="font-size: 25px; color: purple"><i class="fas fa-circle-notch"> </i><p style="font-size: 12px ;color: black;">circle 5</p></span></a>
+                           
                         </div>
 
 
@@ -143,6 +143,12 @@
 
 
       <div class="col-lg-8 card-profile-center ">
+          <nav class="container">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">Home</li>
+    <li class="breadcrumb-item active" aria-current="page">Username</li>
+  </ol>
+</nav>
          <div class="content-profile-page card" id="profilecard">
             <div class="profile-user-page ">
                <div class="img-user-profile">
@@ -155,80 +161,14 @@
                <p>I am a person who loves to code, seeking for an opportunity to utilize my knowledge and learn more. I like to be a part of new and upcoming technology to make myself updated. My Interests are Web Development and Application Development.</p>
             </div> 
             <ul class="data-user">
-              <li><a><strong>300</strong><span>Friends</span></a></li>
-              <li><a><strong>14</strong><span>Circles</span></a></li>
+              <li><a><strong>142</strong><span>Friends</span></a></li>
+              <li><a><strong>32</strong><span>Circles</span></a></li>
            </ul>
         </div>
      </div>
      <div class="row">
       <div class="col-lg-5 ">
-
-         <div class="card">
-            <article class="card-group-item">
-               <header class="card-header">
-                  <h3 class="title">Experience</h3>
-               </header>
-
-               <div class="card-body">
-                  <p>Worked at Google Incorporation for 2 years</p>
-                  <p>2017-2019</p>
-               </div>
-               <!-- list-group .// -->
-
-            </article>
-            <!-- card-group-item.// -->
-            <article class="card-group-item">
-               <header class="card-header">
-                  <h3 class="title"> Education</h3>
-               </header>
-
-               <div class="card-body">
-                  <p>Dr.Sivanthi Aditanar college of Engineering</p>
-                  <p>B.E.,Computer Science</p>
-                  <p>2013-2017</p>
-               </div>
-               <!-- card-body.// -->
-
-            </article>
-            <!-- card-group-item.// -->
-         </div>
-         <!-- card.// -->
-
-         <!-- card.// -->
-
-
-
-<div class="card">
-   <article class="card-group-item">
-      <header class="card-header">
-         <h3 class="title">Projects</h3>
-      </header>
-
-      <div class="card-body">
-        <p>Digital Image Processing:Satellite Images</p>
-     </div>
-     <!-- list-group .// -->
-
-  </article>
-  <!-- card-group-item.// -->
-  <article class="card-group-item">
-   <header class="card-header">
-      <h3 class="title"> Interests</h3>
-   </header>
-
-   <div class="card-body">
-     <p>Machine Learning</p>
-     <p>Web Development</p>
-  </div>
-  <!-- card-body.// -->
-
-</article>
-<!-- card-group-item.// -->
-</div>
-
-
-
-         <div class="card">
+          <div class="card">
             <article class="card-group-item">
                <header class="card-header">
                   <h3 class="title">Skills</h3>
@@ -287,6 +227,136 @@
 </article>
 <!-- card-group-item.// -->
 </div>
+
+<div class="card">
+   <article class="card-group-item">
+      <header class="card-header">
+         <h3 class="title">Projects</h3>
+      </header>
+
+      <div class="card-body">
+        <h5>Digital Image Processing:Satellite Images</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate error ab facere, qui, ea sapiente. Voluptate rem, esse sit iure. Odit fugit amet mollitia unde corporis assumenda possimus commodi excepturi.</p>
+     </div>
+     <!-- list-group .// -->
+     <div class="wrapper">
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong">
+  Show More
+</button>
+     </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Projects</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="card">
+   <article class="card-group-item">
+
+
+      <div class="card-body">
+        <h5>Digital Image Processing:Satellite Images</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate error ab facere, qui, ea sapiente. Voluptate rem, esse sit iure. Odit fugit amet mollitia unde corporis assumenda possimus commodi excepturi.</p>
+     </div>
+  </article>
+  <article class="card-group-item">
+
+
+      <div class="card-body">
+        <h5>Digital Image Processing:Satellite Images</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate error ab facere, qui, ea sapiente. Voluptate rem, esse sit iure. Odit fugit amet mollitia unde corporis assumenda possimus commodi excepturi.</p>
+     </div>
+  </article>
+  <article class="card-group-item">
+
+      <div class="card-body">
+        <h5>Digital Image Processing:Satellite Images</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate error ab facere, qui, ea sapiente. Voluptate rem, esse sit iure. Odit fugit amet mollitia unde corporis assumenda possimus commodi excepturi.</p>
+     </div>
+  </article>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </article>
+</div>
+
+
+         <div class="card">
+            <article class="card-group-item">
+               <header class="card-header">
+                  <h3 class="title">Experience</h3>
+               </header>
+
+               <div class="card-body">
+                  <h5>Working at Tarento Technologies</h5>
+                  <h6>Software Engineer (trainee) </h6>
+                  <p>2019 - Present</p>
+               </div>
+               <!-- list-group .// -->
+
+            </article>
+            <!-- card-group-item.// -->
+            <article class="card-group-item">
+               <header class="card-header">
+                  <h3 class="title"> Education</h3>
+               </header>
+
+               <div class="card-body">
+                  <h5>Vivekananda Institute of Technology</h5>
+                  <h6>B.E. Computer Science and Engineering</h6>
+                  <p>2015-2019</p>
+               </div>
+               <!-- card-body.// -->
+               
+
+            </article>
+            <!-- card-group-item.// -->
+         </div>
+         <!-- card.// -->
+
+         <!-- card.// -->
+
+
+
+
+<div class="card">
+  <!-- card-group-item.// -->
+  <article class="card-group-item">
+   <header class="card-header">
+      <h3 class="title"> Interests</h3>
+   </header>
+
+   <div class="card-body">
+      <ul>
+         <li>Machine Learning</li>
+         <li>Web Development</li>
+      </ul>
+
+  </div>
+  <!-- card-body.// -->
+
+</article>
+<!-- card-group-item.// -->
+</div>
+
+
+
+
+
+
+        
 </div>
 
 
@@ -520,19 +590,19 @@
          <div class="filter-content">
             <div class="card-body">
                <form>
-                  <div class="d-flex p-2"><span style="font-size: 25px; color: black;">
+                  <div class="d-flex p-2"><span style="font-size: 25px; color: grey;">
                      <i class="fas fa-user-circle "></i>
                   </span><a class="dropdown-item" href="#">Person 1</a>
                </div>
-               <div class="d-flex p-2"><span style="font-size: 25px; color: black;">
+               <div class="d-flex p-2"><span style="font-size: 25px; color: grey;">
                   <i class="fas fa-user-circle "></i>
                </span><a class="dropdown-item" href="#">Person 2</a>
             </div>
-            <div class="d-flex p-2"><span style="font-size: 25px; color: black;">
+            <div class="d-flex p-2"><span style="font-size: 25px; color: grey;">
                <i class="fas fa-user-circle "></i>
             </span><a class="dropdown-item" href="#">Person 3</a>
          </div>
-         <div class="d-flex p-2"><span style="font-size: 25px; color: black;">
+         <div class="d-flex p-2"><span style="font-size: 25px; color: grey;">
             <i class="fas fa-user-circle "></i>
          </span><a class="dropdown-item" href="#">Person 4</a>
       </div>
