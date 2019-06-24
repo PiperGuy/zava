@@ -359,3 +359,15 @@ div.progress-bar{
 .breadcrumb{
 	background: transparent;
 }
+.circles-circles{
+	font-size: 25px; 
+	color: red;
+}
+.circles-par{
+	font-size: 16px ;
+	color: black;
+}
+.acc-rej{
+	position: absolute;
+	right: 0;
+}

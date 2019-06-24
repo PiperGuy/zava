@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <title>Zava : Search</title>
+      <title>Zava : Friends</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -25,7 +25,11 @@
                <button class="btn btn-outline-success ml-sm-2 my-2 my-sm-0" type="submit">Search</button>
                </form> -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
+               <form class="form-inline" action="search.html">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+               </form>
+
                <ul class="navbar-nav ml-lg-auto mr-lg-0">
                   <li class="nav-item dropdown pt-2 mr-2">
                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -98,12 +102,12 @@
                         </header>
                         <div class="filter-content">
                            <div class="list-group list-group-flush">
-                    <a href="profile.html" class="list-group-item dropdown-item"> Profile</a>
-                    <a href="friends.html" class="list-group-item dropdown-item">Friends <span class="float-right badge badge-light round">142</span> </a>
-                    <a href="friends.home.html" class="list-group-item dropdown-item">Friend Requests<span class="float-right badge badge-light round">3</span>  </a>
-                    <a href="circles.html" class="list-group-item dropdown-item">Circles <span class="float-right badge badge-light round">32</span>  </a>
-                    <a href="circles.html" class="list-group-item dropdown-item">Circle requests<span class="float-right badge badge-light round">12</span>  </a>
-                  </div>
+                              <a href="profile.html" class="list-group-item dropdown-item"> Profile</a>
+                              <a href="friends.html" class="list-group-item dropdown-item">Friends <span class="float-right badge badge-light round">142</span> </a>
+                              <a href="friends.html" class="list-group-item dropdown-item">Friend Requests<span class="float-right badge badge-light round">3</span>  </a>
+                              <a href="circles.html" class="list-group-item dropdown-item">Circles <span class="float-right badge badge-light round">32</span>  </a>
+                              <a href="circles.html" class="list-group-item dropdown-item">Circle requests<span class="float-right badge badge-light round">12</span>  </a>
+                           </div>
                            <!-- list-group .// -->
                         </div>
                      </article>
@@ -167,7 +171,7 @@
                 <nav class="container">
   <ol class="breadcrumb">
     <li class="breadcrumb-item">Home</li>
-    <li class="breadcrumb-item active" aria-current="page">Search</li>
+    <li class="breadcrumb-item active" aria-current="page">Friends</li>
   </ol>
 </nav>
                <div class="card">
@@ -177,7 +181,7 @@
                      <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search">
                         <div class="input-group-append">
-                          <div class="dropdown">
+                          <!-- <div class="dropdown">
                           <button class="btn btn-secondary dropdown-toggle"type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Filter
                           </button>
@@ -186,82 +190,127 @@
     <a class="dropdown-item" href="#">Education</a>
     <a class="dropdown-item" href="#">Intrests</a>
   </div>
-  </div>
+  </div> -->
                            <button class="btn btn-secondary" type="button">
                            <i class="fa fa-search"></i>
                            </button>
                         </div>
                      </div>
                      <div class="card-body">
-                      
-                      <small>Request time  (0.23 seconds)</small><br>
-                      <p>11 results found</p>
+                        <header>
+                           <h4>Requests</h4>
+                        </header>
                         <form>
+
                            <div class="d-flex p-2 search-border">
+
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 1</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 1</a>  <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
+
+                 
+                
                               </p>
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 2</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 2</a> <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
                               </p>  
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 3</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 3</a> <br> Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
+                              </p>
+                              
+                           </div>
+                        </form>
+                     </div>
+                     <div class="card-body">
+                      <header>
+                         <h4>Friends</h4>
+                      </header>
+                        <form>
+                           <div class="d-flex p-2 search-border">
+                              <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
+                              <p class="search-inline">
+                                 <a href="#">Person 1</a> <br> Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
+                              </p>
+                           </div>
+                           <div class="d-flex p-2 search-border">
+                              <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
+                              <p class="search-inline">
+                                 <a href="#">Person 2</a> <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
+                              </p>  
+                           </div>
+                           <div class="d-flex p-2 search-border">
+                              <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
+                              <p class="search-inline">
+                                 <a href="#">Person 3</a> <br> Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
                               </p>
                               
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 4</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 4</a> <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
                               </p>
                               
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 5</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 5</a> <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
                               </p>
                               
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 6</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 6</a> <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
                               </p>
                               
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 7</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 7</a> <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
                               </p>
                               
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 8</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 8</a> <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
                               </p>
                               
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 9</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 9</a> <br>Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
                               </p>
                               
                            </div>
                            <div class="d-flex p-2 search-border">
                               <span style="font-size: 35px; color: grey;"> <i class="fas fa-user-circle "></i> </span>
                               <p class="search-inline">
-                                 <a href="#">Person 10</a> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic sapiente, dolor. Atque laudantium unde, vitae quas officia error aspernatur vel voluptatibus quis tempora itaque fugiat inventore aperiam, veritatis deleniti. 
+                                 <a href="#">Person 10</a> <br> Vivekananda Institute of Technology <br>   
+                  <small>B.E. Computer Science and Engineering</small>
+
                               </p>
                               
                            </div>
